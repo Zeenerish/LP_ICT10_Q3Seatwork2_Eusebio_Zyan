@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+   
+   
+    <title>SW2: Eusebio</title>
+
+<style>
+
+body{
+    background-color: bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: 24px;
+    text-align: center;
+
+
+}
+
+.container{
+    color: black ;
+    background-color: whitesmoke;
+    max-width: 780px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+h2{
+    text-align: center;
+}
+
+label{
+
+    font-size:16px;
+
+}
+</style>   
+</head>
+<body>
+
+
+      <div class="container p-5 mt-5">
+
+      <h2>SW2: Eusebio</h2>
+    
+
+    <h6> Have you answered the digital form? </h6>
+     		<label>
+     		<input type="radio" class="form-check-input" name="Questions"> Yes
+     		</label>
+
+            <label>
+     		<input type="radio" class="form-check-input" name="Questions"> No
+     		</label>
+
+
+    <h6> Do you have clearance from the clinic? </h6>
+     		<label>
+     		<input type="radio" class="form-check-input" name="Questions"> Yes
+     		</label>
+
+            <label>
+     		<input type="radio" class="form-check-input" name="Questions"> No
+     		</label>
+
+<br>     
+<br>
+    <div class="col d-flex flex-column align-items-center">
+                <label for="">What's your grade and section?</label>
+                <select name="grades" id="grd" style="width: 35%; border-radius: 10px 10px 10px 10px; border: 2px solid lightblue; text-align: lef;">
+                    <option value=""></option>
+                    <option value="BB">7</option>
+                    <option value="RB">8</option>
+                    <option value="YT">9</option>
+                    <option value="GH">10</option>
+                </select>
+                <select name="section" id="sct" style="width: 35%; border-radius: 10px 10px 10px 10px; border: 2px solid lightblue; text-align: left;">
+                    <option value=""></option>
+                    <option value="BB">SAPPHIRE</option>
+                    <option value="RB">RUBY</option>
+                    <option value="YT">EMERALD</option> 
+                </select>
+            </div>
+            
+            <div> 
+            </div>
+
+            <br>
+
+            <div class="flex-grow-1 text-center">
+                <button type="submit" class="btn" py-click="nanamigreen" style="background-color: #3366CC; color: rgb(255, 255, 255);">
+                    Submit Order
+                </button>
+            </div>
+        </div>
+        
+</body>
+</html>
